@@ -1,6 +1,6 @@
 # Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Case Study
 
-This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Case Study_, in review.
+This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Case Study_, in prep.
 
 ## Requirements
 
