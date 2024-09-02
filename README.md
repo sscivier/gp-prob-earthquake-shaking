@@ -2,7 +2,7 @@
 
 This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Case Study_, in prep.
 
-## Requirements
+## Installation and requirements
 
 This repository contains files with two options: either using CUDA for GPU acceleration during model training, or not. CUDA users should use files ending in `_cuda`, otherwise use files ending in `_cpu`.
 
