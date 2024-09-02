@@ -6,6 +6,8 @@ This repository is the official implementation of _Gaussian Processes for Probab
 
 This repository contains files with two options: either using CUDA for GPU acceleration during model training, or not. CUDA users should use files ending in `_cuda`, otherwise use files ending in `_cpu`.
 
+This package has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
+
 To install requirements:
 
 CUDA:
