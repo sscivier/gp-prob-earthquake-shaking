@@ -8,14 +8,52 @@ This repository contains files with two options: either using CUDA for GPU accel
 
 This package has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
 
-To install requirements:
+To create a virtual environment and install requirements:
 
 CUDA:
+
+Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
+```
+python3 -m venv my-venv
+source my-env/bin/activate
+```
+
+Upgrades:
+```
+pip install -U pip setuptools wheel
+```
+
+Install PyTorch:
+```
+pip install torch --index-url https://download.pytorch.org/whl/cu124
+```
+Option to instead go to [PyTorch installation webpage](https://pytorch.org/get-started/locally/) to generate installation command.
+
+Install remaining requirements:
 ```
 pip install -r requirements_cuda.txt
 ```
 
 CPU:
+
+Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
+```
+python3 -m venv my-venv
+source my-env/bin/activate
+```
+
+Upgrades:
+```
+pip install -U pip setuptools wheel
+```
+
+Install PyTorch:
+```
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+```
+Option to instead go to [PyTorch installation webpage](https://pytorch.org/get-started/locally/) to generate installation command.
+
+Install remaining requirements:
 ```
 pip install -r requirements_cpu.txt
 ```
