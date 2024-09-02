@@ -19,42 +19,42 @@ source my-env/bin/activate
 ```
 
 Upgrades:
-```
+```shell
 pip install -U pip setuptools wheel
 ```
 
 Install PyTorch:
-```
+```shell
 pip install torch --index-url https://download.pytorch.org/whl/cu124
 ```
 Option to instead go to [PyTorch installation webpage](https://pytorch.org/get-started/locally/) to generate installation command.
 
 Install remaining requirements:
-```
+```shell
 pip install -r requirements_cuda.txt
 ```
 
 **CPU:**
 
 Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
-```
+```shell
 python3 -m venv my-venv
 source my-env/bin/activate
 ```
 
 Upgrades:
-```
+```shell
 pip install -U pip setuptools wheel
 ```
 
 Install PyTorch:
-```
+```shell
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 Option to instead go to [PyTorch installation webpage](https://pytorch.org/get-started/locally/) to generate installation command.
 
 Install remaining requirements:
-```
+```shell
 pip install -r requirements_cpu.txt
 ```
 
