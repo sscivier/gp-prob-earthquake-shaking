@@ -13,7 +13,7 @@ To create a virtual environment and install requirements:
 **CUDA:**
 
 Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
-```
+```shell
 python3 -m venv my-venv
 source my-env/bin/activate
 ```
