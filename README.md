@@ -28,6 +28,6 @@ By default, the training code in the notebooks is commented out. If you wish to 
 
 Pre-trained models are found in the `models/` directory. These are loaded by default in the notebooks.
 
-## Contributing, Questions, and Issues
+## Contributing, questions, and issues
 
 If you would like to contribute to this work, have questions, or encounter any issues with the code, please [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
