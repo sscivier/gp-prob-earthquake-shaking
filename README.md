@@ -10,7 +10,7 @@ This package has been tested using Python 3.10.12. Using a different Python vers
 
 To create a virtual environment and install requirements:
 
-CUDA:
+**CUDA:**
 
 Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
 ```
@@ -34,7 +34,7 @@ Install remaining requirements:
 pip install -r requirements_cuda.txt
 ```
 
-CPU:
+**CPU:**
 
 Navigate to working directory. Create ```venv``` (change name by replacing 'my-venv'), and activate:
 ```
