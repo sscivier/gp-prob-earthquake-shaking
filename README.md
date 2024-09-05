@@ -73,8 +73,8 @@ If you would like to contribute to this work, have questions, or encounter any i
 This repository uses the following open-source software libraries:
 
 - Jupyter Notebooks [[Website](https://jupyter.org/)][[GitHub](https://github.com/jupyter/notebook)][![DOI](https://zenodo.org/badge/DOI/10.3233/978-1-61499-649-1-87.svg)](https://doi.org/10.3233/978-1-61499-649-1-87)
-- NumPy v2.1.0 [[Website](https://numpy.org/)[[GitHub](https://github.com/numpy/numpy)[![DOI](https://zenodo.org/badge/DOI/10.1038/s41586-020-2649-2.svg)](https://doi.org/10.1038/s41586-020-2649-2)
+- NumPy v2.1.0 [[Website](https://numpy.org/)[[GitHub](https://github.com/numpy/numpy)][![DOI](https://zenodo.org/badge/DOI/10.1038/s41586-020-2649-2.svg)](https://doi.org/10.1038/s41586-020-2649-2)
 - SciPy v1.14.1 [[Website](https://scipy.org/)][[GitHub](https://github.com/scipy/scipy)][![DOI](https://zenodo.org/badge/DOI/10.1038/s41592-019-0686-2.svg)](https://doi.org/10.1038/s41592-019-0686-2)
 - Matplotlib v3.9.2 [[Website](https://matplotlib.org/)][[GitHub](https://github.com/matplotlib/matplotlib)][![DOI](https://zenodo.org/badge/DOI/10.1109/MCSE.2007.55.svg)](https://doi.org/10.1109/MCSE.2007.55)
-- PyTorch v2.4.0 [[Website](https://pytorch.org/)][[GitHub](https://github.com/pytorch/pytorch)][![DOI](https://zenodo.org/badge/DOI/10.5555/3454287.3455008.svg)](https://doi.org/10.5555/3454287.3455008)
-- GPyTorch v1.12 [[Website](https://gpytorch.ai/)][[GitHub](https://github.com/cornellius-gp/gpytorch)][![DOI](https://zenodo.org/badge/DOI/10.5555/3327757.3327857.svg)](https://doi.org/10.5555/3327757.3327857)
+- PyTorch v2.4.0 [[Website](https://pytorch.org/)][[GitHub](https://github.com/pytorch/pytorch)][![DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.1912.01703.svg)](https://doi.org/10.48550/arXiv.1912.01703)
+- GPyTorch v1.12 [[Website](https://gpytorch.ai/)][[GitHub](https://github.com/cornellius-gp/gpytorch)][![DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.1809.11165.svg)](https://doi.org/10.48550/arXiv.1809.11165)
