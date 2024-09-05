@@ -70,4 +70,4 @@ If you would like to contribute to this work, have questions, or encounter any i
 
 ## References and Acknowledgements
 
-This code used the following open-source software libraries: \textsc{[Jupyter Notebooks](https://jupyter.org/)}
+This code used the following open-source software libraries:
