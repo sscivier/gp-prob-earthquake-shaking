@@ -68,7 +68,7 @@ Pre-trained models are found in the `models/` directory. These are loaded by def
 
 ## Contributing, questions, and issues
 
-If you would like to contribute to this work, have questions, or encounter any issues with the code, please get in touch (link temporarily removed).
+If you would like to contribute to this work, have questions, or encounter any issues with the code, please [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
 
 ## References and Acknowledgements
 
