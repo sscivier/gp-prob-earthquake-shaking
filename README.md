@@ -6,7 +6,7 @@ We present a proof-of-concept workflow for probabilistic earthquake ground motio
 
 ## Installation and requirements
 
-This repository contains files with two options: either using CUDA for GPU acceleration during model training, or not. CUDA users should use files ending in `_cuda`, otherwise use files ending in `_cpu`.
+The installation instructions have two options: either for using CUDA for GPU acceleration during model training, or not. CUDA users should follow the **CUDA** instructions, and CPU users should follow the **CPU** instructions.
 
 This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
 
@@ -60,11 +60,11 @@ pip install -r requirements_cpu.txt
 
 ## Running the code
 
-All of the code necessary to reproduce the results in the paper is contained in the Jupyter Notebooks. For CUDA users: `workflow_cuda.ipynb`. For CPU users: `workflow_cpu.ipynb`.
+All of the code necessary to reproduce the results in the paper is contained in the Jupyter Notebook, `workflow.ipynb`.
 
-By default, the training code in the notebooks is commented out. If you wish to run the training code, simply uncomment it. These cells are indicated in the notebooks.
+By default, the training code in the notebook is commented out. If you wish to run the training code, simply uncomment it. These cells are indicated in the notebook.
 
-Pre-trained models are found in the `models/` directory. These are loaded by default in the notebooks.
+Pre-trained models are found in the `models/` directory. These are loaded by default in the notebook.
 
 ## Contributing, questions, and issues
 
