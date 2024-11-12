@@ -1,6 +1,6 @@
-# Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept, in prep.
+# Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept, accepted in ML4PS Workshop @ NeurIPS 2024.
 
-This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept_, in prep.
+This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept_, accepted in [ML4PS Workshop](https://ml4physicalsciences.github.io/2024/) @ NeurIPS 2024.
 
 We present a proof-of-concept workflow for probabilistic earthquake ground motion prediction that accounts for inconsistencies between existing seismic velocity models. The approach is based on the probabilistic merging of overlapping seismic velocity models using scalable Gaussian Process (GP) regression. We fit a GP to two synthetic 1-D velocity profiles simultaneously, demonstrating that the predictive uncertainty accounts for the differences between them. We then draw samples of velocity models from the predictive distribution and simulate the acoustic wave equation using each sample as input. This results in a distribution of possible peak ground displacement (PGD) scenarios, reflecting the uncertainty in our knowledge of seismic velocities in the region.
 
@@ -65,6 +65,10 @@ All of the code necessary to reproduce the results in the paper is contained in 
 By default, the training code in the notebook is commented out. If you wish to run the training code, simply uncomment it. These cells are indicated in the notebook.
 
 Pre-trained models are found in the `models/` directory. These are loaded by default in the notebook.
+
+## Citing this work
+
+Coming soon ...
 
 ## Contributing, questions, and issues
 
