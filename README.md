@@ -3,8 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-    - [CUDA](#cuda)
-    - [CPU](#cpu)
 - [Usage](#usage)
 - [Citing this work](#citing-this-work)
 - [Contributing, questions, and issues](#contributing-questions-and-issues)
