@@ -1,65 +1,38 @@
 # Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept, accepted in ML4PS Workshop @ NeurIPS 2024.
 
+## Introduction
 This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept_, accepted in [ML4PS Workshop](https://ml4physicalsciences.github.io/2024/) @ NeurIPS 2024.
 
 We present a proof-of-concept workflow for probabilistic earthquake ground motion prediction that accounts for inconsistencies between existing seismic velocity models. The approach is based on the probabilistic merging of overlapping seismic velocity models using scalable Gaussian Process (GP) regression. We fit a GP to two synthetic 1-D velocity profiles simultaneously, demonstrating that the predictive uncertainty accounts for the differences between them. We then draw samples of velocity models from the predictive distribution and simulate the acoustic wave equation using each sample as input. This results in a distribution of possible peak ground displacement (PGD) scenarios, reflecting the uncertainty in our knowledge of seismic velocities in the region.
 
-## Installation and requirements
-
+## Installation
 The installation instructions have two options: either for using CUDA for GPU acceleration during model training, or not. CUDA users should follow the **CUDA** instructions, and CPU users should follow the **CPU** instructions.
 
 This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
 
 To create a virtual environment and install requirements:
 
-**CUDA:**
-
 Navigate to working directory. Create ```venv``` (change name by replacing ```my-venv```), and activate:
 ```shell
 python3 -m venv my-venv
 source my-env/bin/activate
 ```
 
-Upgrades:
-```shell
-pip install -U pip setuptools wheel
-```
+**CUDA:**
 
-Install PyTorch:
-```shell
-pip install torch --index-url https://download.pytorch.org/whl/cu124
-```
-
-Install remaining requirements:
+Install requirements:
 ```shell
 pip install -r requirements_cuda.txt
 ```
 
 **CPU:**
 
-Navigate to working directory. Create ```venv``` (change name by replacing ```my-venv```), and activate:
+Install requirements:
 ```shell
-python3 -m venv my-venv
-source my-env/bin/activate
+pip install -r requirements.txt
 ```
 
-Upgrades:
-```shell
-pip install -U pip setuptools wheel
-```
-
-Install PyTorch:
-```shell
-pip install torch --index-url https://download.pytorch.org/whl/cpu
-```
-
-Install remaining requirements:
-```shell
-pip install -r requirements_cpu.txt
-```
-
-## Running the code
-
+## Usage
 All of the code necessary to reproduce the results in the paper is contained in the Jupyter Notebook, `workflow.ipynb`.
 
 By default, the training code in the notebook is commented out. If you wish to run the training code, simply uncomment it. These cells are indicated in the notebook.
@@ -67,12 +40,13 @@ By default, the training code in the notebook is commented out. If you wish to r
 Pre-trained models are found in the `models/` directory. These are loaded by default in the notebook.
 
 ## Citing this work
-
 Coming soon ...
 
 ## Contributing, questions, and issues
+If you have any suggestions, improvements, questions, or comments - please create an issue, submit a pull request, or [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
 
-If you would like to contribute to this work, have questions, or encounter any issues with the code, please [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
+## License
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## References and Acknowledgements
 
