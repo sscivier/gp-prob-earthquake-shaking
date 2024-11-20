@@ -1,5 +1,16 @@
 # Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept, accepted in ML4PS Workshop @ NeurIPS 2024.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+    - [CUDA](#cuda)
+    - [CPU](#cpu)
+- [Usage](#usage)
+- [Citing this work](#citing-this-work)
+- [Contributing, questions, and issues](#contributing-questions-and-issues)
+- [License](#license)
+- [References and Acknowledgements](#references-and-acknowledgements)
+
 ## Introduction
 This repository is the official implementation of _Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept_, accepted in [ML4PS Workshop](https://ml4physicalsciences.github.io/2024/) @ NeurIPS 2024.
 
