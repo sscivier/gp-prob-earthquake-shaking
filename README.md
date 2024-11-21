@@ -50,7 +50,7 @@ All of the code necessary to reproduce the results in the paper is contained in 
 
 By default, the training code in the notebook is commented out. If you wish to run the training code, simply uncomment it. These cells are indicated in the notebook.
 
-Pre-trained models are found in the `models/` directory. These are loaded by default in the notebook.
+Pre-trained models are found in the `trained_models/` directory. These are loaded by default in the notebook.
 
 ## Citing this work
 Coming soon ...
