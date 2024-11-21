@@ -17,7 +17,9 @@ This repository is the official implementation of _Gaussian Processes for Probab
 We present a proof-of-concept workflow for probabilistic earthquake ground motion prediction that accounts for inconsistencies between existing seismic velocity models. The approach is based on the probabilistic merging of overlapping seismic velocity models using scalable Gaussian Process (GP) regression. We fit a GP to two synthetic 1-D velocity profiles simultaneously, demonstrating that the predictive uncertainty accounts for the differences between them. We then draw samples of velocity models from the predictive distribution and simulate the acoustic wave equation using each sample as input. This results in a distribution of possible peak ground displacement (PGD) scenarios, reflecting the uncertainty in our knowledge of seismic velocities in the region.
 
 ## Installation
-The installation instructions have two options: either for using CUDA for GPU acceleration during model training, or not. CUDA users should follow the **CUDA** instructions, and CPU users should follow the **CPU** instructions.
+You can use Binder to run the notebook online without any installation. Click the Binder badge at the top of this README to launch the notebooks in your browser. It is recommended **not** to run model training on Binder, as it may take much longer than on your computer.
+
+If you wish to run the code on your computer, the installation instructions have two options: either for using CUDA for GPU acceleration during model training, or not. CUDA users should follow the **CUDA** instructions, and CPU users should follow the **CPU** instructions.
 
 This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
 
