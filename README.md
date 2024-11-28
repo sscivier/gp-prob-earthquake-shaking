@@ -72,3 +72,5 @@ This repository uses the following open-source software libraries:
 - Matplotlib v3.9.2 [[Website](https://matplotlib.org/)][[GitHub](https://github.com/matplotlib/matplotlib)][![DOI](https://zenodo.org/badge/DOI/10.1109/MCSE.2007.55.svg)](https://doi.org/10.1109/MCSE.2007.55)
 - PyTorch v2.5.1 [[Website](https://pytorch.org/)][[GitHub](https://github.com/pytorch/pytorch)][![DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.1912.01703.svg)](https://doi.org/10.48550/arXiv.1912.01703)
 - GPyTorch v1.13 [[Website](https://gpytorch.ai/)][[GitHub](https://github.com/cornellius-gp/gpytorch)][![DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.1809.11165.svg)](https://doi.org/10.48550/arXiv.1809.11165)
+
+Sam A. Scivier is funded by a UKRI NERC DTP Award (NE/S007474/1) and gratefully acknowledges their support.
