@@ -66,6 +66,7 @@ This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE
 This repository uses the following open-source software libraries:
 
 - Jupyter Notebooks [[Website](https://jupyter.org/)][[GitHub](https://github.com/jupyter/notebook)][![DOI](https://zenodo.org/badge/DOI/10.3233/978-1-61499-649-1-87.svg)](https://doi.org/10.3233/978-1-61499-649-1-87)
+- Binder [[Website](https://mybinder.org/)][[GitHub](https://github.com/jupyterhub/binderhub)][![DOI](https://zenodo.org/badge/DOI/10.25080/Majora-4af1f417-011.svg)](https://doi.org/10.25080/Majora-4af1f417-011)
 - NumPy v2.1.3 [[Website](https://numpy.org/)][[GitHub](https://github.com/numpy/numpy)][![DOI](https://zenodo.org/badge/DOI/10.1038/s41586-020-2649-2.svg)](https://doi.org/10.1038/s41586-020-2649-2)
 - SciPy v1.14.1 [[Website](https://scipy.org/)][[GitHub](https://github.com/scipy/scipy)][![DOI](https://zenodo.org/badge/DOI/10.1038/s41592-019-0686-2.svg)](https://doi.org/10.1038/s41592-019-0686-2)
 - Matplotlib v3.9.2 [[Website](https://matplotlib.org/)][[GitHub](https://github.com/matplotlib/matplotlib)][![DOI](https://zenodo.org/badge/DOI/10.1109/MCSE.2007.55.svg)](https://doi.org/10.1109/MCSE.2007.55)
