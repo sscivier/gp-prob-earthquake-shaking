@@ -28,13 +28,8 @@ authors:
     email: gunes.baydin@cs.ox.ac.uk
     affiliation: University of Oxford
     orcid: 'https://orcid.org/0000-0001-9854-8100'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.14246055
-    description: Zenodo DOI
-  - type: url
-    value: 'https://doi.org/10.5281/zenodo.14246055'
-    description: Zenodo URL
+doi: 10.5281/zenodo.14246055
+url: 'https://doi.org/10.5281/zenodo.14246055'
 repository-code: 'https://github.com/sscivier/gp-prob-earthquake-shaking'
 abstract: >-
   We present a proof-of-concept workflow for probabilistic
