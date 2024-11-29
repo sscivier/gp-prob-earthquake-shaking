@@ -21,7 +21,7 @@ You can use Binder to run the notebook online without any installation. Click th
 
 If you wish to run the code on your computer, the installation instructions have two options: either for using CUDA for GPU acceleration during model training, or not. CUDA users should follow the **CUDA** instructions, and CPU users should follow the **CPU** instructions.
 
-This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts.
+**This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts, or installation errors. If ```pip``` cannot find certain packages during installation, then ensure you are running Python 3.10.12 in your virtual environment, and retry the installation.**
 
 To create a virtual environment and install requirements:
 
