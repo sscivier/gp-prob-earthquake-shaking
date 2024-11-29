@@ -53,7 +53,9 @@ By default, the training code in the notebook is commented out. If you wish to r
 Pre-trained models are found in the `trained_models/` directory. These are loaded by default in the notebook.
 
 ## Citing this work
-Coming soon ...
+This repository includes a `CITATION.cff` file containing the software citation. Please cite the software using this information. GitHub automatically generates APA and BibTeX citations that you can use.
+
+Associated paper citation coming soon ...
 
 ## Contributing, questions, and issues
 If you have any suggestions, improvements, questions, or comments - please create an issue, submit a pull request, or [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
