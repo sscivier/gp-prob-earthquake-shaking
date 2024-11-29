@@ -1,6 +1,7 @@
 # Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept, accepted in ML4PS Workshop @ NeurIPS 2024.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sscivier/gp-prob-earthquake-shaking/HEAD?urlpath=tree)
+[![DOI](https://zenodo.org/badge/848923377.svg)](https://doi.org/10.5281/zenodo.14246055)
 
 ## Table of Contents
 - [Introduction](#introduction)
