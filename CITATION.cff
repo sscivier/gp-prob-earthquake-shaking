@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+title: >-
+  Gaussian Processes for Probabilistic Estimates of
+  Earthquake Ground Shaking: A 1-D Proof-of-Concept
+message: >-
+  If you find this software useful in your research, please
+  cite it as below, and cite the associated paper (details
+  in the README file).
+type: software
+authors:
+  - given-names: Sam A.
+    family-names: Scivier
+    email: sam.scivier@earth.ox.ac.uk
+    affiliation: University of Oxford
+    orcid: 'https://orcid.org/0000-0003-1635-9475'
+  - given-names: Tarje
+    family-names: Nissen-Meyer
+    email: t.nissen-meyer@exeter.ac.uk
+    affiliation: University of Exeter
+    orcid: 'https://orcid.org/0000-0002-9051-1060'
+  - given-names: Paula
+    family-names: Koelemeijer
+    email: paula.koelemeijer@earth.ox.ac.uk
+    affiliation: University of Oxford
+    orcid: 'https://orcid.org/0000-0001-5153-3040'
+  - given-names: Atılım Güneş
+    family-names: Baydin
+    email: gunes.baydin@cs.ox.ac.uk
+    affiliation: University of Oxford
+    orcid: 'https://orcid.org/0000-0001-9854-8100'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.
+    description: Zenodo DOI
+  - type: url
+    value: 'https://doi.org/10.5281/zenodo.'
+    description: Zenodo URL
+repository-code: 'https://github.com/sscivier/gp-prob-earthquake-shaking'
+abstract: >-
+  We present a proof-of-concept workflow for probabilistic
+  earthquake ground motion prediction that accounts for
+  inconsistencies between existing seismic velocity models.
+  The approach is based on the probabilistic merging of
+  overlapping seismic velocity models using scalable
+  Gaussian Process (GP) regression. We fit a GP to two
+  synthetic 1-D velocity profiles simultaneously,
+  demonstrating that the predictive uncertainty accounts for
+  the differences between them. We then draw samples of
+  velocity models from the predictive distribution and
+  simulate the acoustic wave equation using each sample as
+  input. This results in a distribution of possible peak
+  ground displacement (PGD) scenarios, reflecting the degree
+  of knowledge of seismic velocities in the region.
+keywords:
+  - Seismology
+  - Gaussian Processes
+  - Seismic Hazard
+  - Data Fusion
+  - Probabilistic Machine Learning
+license: Apache-2.0
+version: 0.1.0
+date-released: '2024-11-29'
