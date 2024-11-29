@@ -30,10 +30,10 @@ authors:
     orcid: 'https://orcid.org/0000-0001-9854-8100'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.
+    value: 10.5281/zenodo.14246055
     description: Zenodo DOI
   - type: url
-    value: 'https://doi.org/10.5281/zenodo.'
+    value: 'https://doi.org/10.5281/zenodo.14246055'
     description: Zenodo URL
 repository-code: 'https://github.com/sscivier/gp-prob-earthquake-shaking'
 abstract: >-
@@ -58,5 +58,5 @@ keywords:
   - Data Fusion
   - Probabilistic Machine Learning
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 date-released: '2024-11-29'
