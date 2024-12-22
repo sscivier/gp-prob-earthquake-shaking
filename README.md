@@ -24,12 +24,18 @@ If you wish to run the code on your computer, the installation instructions have
 
 **This code has been tested using Python 3.10.12. Using a different Python version may result in package conflicts, or installation errors. If ```pip``` cannot find certain packages during installation, then ensure you are running Python 3.10.12 in your virtual environment, and retry the installation.**
 
-To create a virtual environment and install requirements:
+Create a virtual environment:
 
 Navigate to working directory. Create ```venv``` (change name by replacing ```my-venv```), and activate:
 ```shell
 python3 -m venv my-venv
 source my-env/bin/activate
+```
+
+Clone the repository:
+
+```shell
+git clone git@github.com:sscivier/gp-prob-earthquake-shaking.git
 ```
 
 **CUDA:**
