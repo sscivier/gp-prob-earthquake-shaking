@@ -60,9 +60,19 @@ By default, the training code in the notebook is commented out. If you wish to r
 Pre-trained models are found in the `trained_models/` directory. These are loaded by default in the notebook.
 
 ## Citing this work
-This repository includes a `CITATION.cff` file containing the software citation. Please cite the software using this information. GitHub automatically generates APA and BibTeX citations that you can use.
+If you find this software useful in your research, please cite the software and the associated paper. This repository includes a `CITATION.cff` file containing the software citation. GitHub automatically generates APA and BibTeX citations that you can use. To cite the paper, please use the following BibTeX citation:
 
-Associated paper citation coming soon ...
+```
+@misc{scivier2024gaussianprocessesprobabilisticestimates,
+      title         = {Gaussian Processes for Probabilistic Estimates of Earthquake Ground Shaking: A 1-D Proof-of-Concept}, 
+      author        = {Sam A. Scivier and Tarje Nissen-Meyer and Paula Koelemeijer and Atılım Güneş Baydin},
+      year          = {2024},
+      eprint        = {2412.03299},
+      archivePrefix = {arXiv},
+      primaryClass  = {physics.geo-ph},
+      url           = {https://arxiv.org/abs/2412.03299}, 
+}
+```
 
 ## Contributing, questions, and issues
 If you have any suggestions, improvements, questions, or comments - please create an issue, submit a pull request, or [get in touch](mailto:sam.scivier@earth.ox.ac.uk).
