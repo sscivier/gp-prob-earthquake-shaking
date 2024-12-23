@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sscivier/gp-prob-earthquake-shaking/HEAD?urlpath=tree)
 [![DOI](https://zenodo.org/badge/848923377.svg)](https://doi.org/10.5281/zenodo.14246055)
+![GitHub License](https://img.shields.io/github/license/sscivier/gp-prob-earthquake-shaking)
+![GitHub Release](https://img.shields.io/github/v/release/sscivier/gp-prob-earthquake-shaking)
 
 ## Table of Contents
 - [Introduction](#introduction)
