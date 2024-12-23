@@ -4,8 +4,7 @@ title: >-
   Earthquake Ground Shaking: A 1-D Proof-of-Concept
 message: >-
   If you find this software useful in your research, please
-  cite it as below, and cite the associated paper (details
-  in the README file).
+  cite the software and the associated paper.
 type: software
 authors:
   - given-names: Sam A.
@@ -53,5 +52,5 @@ keywords:
   - Data Fusion
   - Probabilistic Machine Learning
 license: Apache-2.0
-version: 0.1.3
+version: 0.1.4
 date-released: '2024-12-22'
